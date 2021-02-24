@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
 	}
 	public void loseHealth()
 	{
-		health -= healthLoss;
+		health -= healthLoss * Time.deltaTime;
 	}
 	private void Update()
 	{

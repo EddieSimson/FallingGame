@@ -7,6 +7,6 @@ public class Timer : MonoBehaviour
 	public Text score;
 	public void Update()
 	{
-		score.text = Mathf.Round(Player.timer).ToString() + "s";
+		score.text = "You Survived For " + Mathf.Round(Player.timer).ToString() + "s";
 	}
 }

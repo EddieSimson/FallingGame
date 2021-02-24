@@ -10,6 +10,6 @@ public class Health : MonoBehaviour
 
 	private void Update()
 	{
-		score.text = Mathf.Round(player.health).ToString();
+		score.text = "Health: " + Mathf.Round(player.health).ToString();
 	}
 }
