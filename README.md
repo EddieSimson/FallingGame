@@ -17,3 +17,6 @@ Download the project as a ZIP file and extract it
 Open the project in Unity and navigate to the Scenes folder
 Open the StartMenu scene<br>
 Run the project!
+
+## Licence
+MIT Licence
